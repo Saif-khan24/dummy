@@ -6,7 +6,3 @@ public class q2
         System.out.println("keep tryin")
     }
 }
-
-// git add .
-// git commit -m "Add new file"
-// git push origin master
