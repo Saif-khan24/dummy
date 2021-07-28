@@ -3,7 +3,7 @@ public class q3 {
     public static void main(String args[])
     {
         System.out.println("yes it worked");
-        System.out.println();git 
+        System.out.println(); 
     }
 }
 
