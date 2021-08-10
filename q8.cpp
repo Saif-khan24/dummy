@@ -11,17 +11,16 @@ void pseudoBinary(int n)
         int temp = n, m = 0, p = 1;
         while(temp)
         {
-            int rem = temp % 10;   //5
+            int rem = temp % 10;  //5
             temp = temp/10;       //
 
             if(rem != 0)
                 m += p;      //m = 1101
             
-            p = p*10;      //p = 1000
+            p = p*10;        //p = 1000
         }
 
         cout << m << " ";     //1101 
-
         n = n - m;     //4001
     }
 }
@@ -29,7 +28,8 @@ void pseudoBinary(int n)
 int main()
 {
     // pseudoBinary(5102);
-    pseudoBinary(231);
+    // pseudoBinary(231);
+    pseudoBinary(332);
     return 0;
 }
 
